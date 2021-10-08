@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- style sheet -->
+    <link rel="stylesheet" href="style/style.css">
+
+    <!-- JS file -->
+    <script src="./main.js" defer></script>
+    <title>Todo list</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="main-title">todo list</h1>
+        <p class="body-text">This is a simple <strong>Todo list</strong>, which I decided to make it with HTML, CSS and
+            JAVASCRIPT. This
+            project is for learning purpose only.
+        </p>
+
+        <!-- form container -->
+        <div class="form-container">
+            <form name="netlify" id="todo-form">
+                <div class="input-container">
+                    <label for="input">Insert your item to do</label>
+                    <input type="text" id="input" spellcheck="true">
+                    <small class="details"></small>
+                </div>
+                <button type="submit" class="btn">add</button>
+            </form>
+        </div>
+
+        <section class="todo-list-section">
+            <h1 class="title">items added</h1>
+            <ul class="todo-list">
+            </ul>
+            <p class="body-text item-list-info" id="list-info">no item added yet...</p>
+        </section>
+    </div>
+
+    <footer id="footer">
+        <div class="container">
+            <p>codded by: Meqdad Moradi</p>
+            <p>&copy; 2021, all right reserved</p>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
